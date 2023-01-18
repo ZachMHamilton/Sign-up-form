@@ -68,7 +68,7 @@ body {
     padding-left: 50px;
     padding-right: 150px;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     font-family: 'Roboto', sans-serif;
     letter-spacing: .02em;
     color: #2C2C2C;
@@ -81,7 +81,7 @@ body {
     padding-bottom: 30px;
     align-items: center;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     font-family: 'Roboto', sans-serif;
     letter-spacing: .02em;
     color: #2C2C2C;
@@ -171,6 +171,7 @@ button {
     padding-bottom: 5px;
     border-radius: 5px;
     border: none;
+    box-shadow: 2px 5px 5px lightgray;
 }
 button:active {
     background-color: #144015;
