@@ -16,11 +16,40 @@
     </div>
     <div id="right">
         <div id="top">
-            <div id="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-            <div id="sentence">You know you want to</div>
+            <div id="paragraph">This is not a real online service! You know you need something like this in your life
+                to help you realize your deepest dreams. Sign up <i>now</i> to get started.
+            </div>
+            <div id="sentence">You <i>know</i> you want to.</div>
         </div>
         <div id="middle">
-            Form
+            
+            <form action="http://httpbin.org/post" method="post">
+                <div id="first">
+                    <label for="first_name">First Name:</label>
+                    <input type="text" name="first_name" id="first_name">
+                </div>
+                <div id="last">
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" name="last_name" id="last_name">
+                </div>
+                <div id="email">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div id="phonenumber">
+                    <label for="number">Phone Number:</label>
+                    <input type="number" name="number" id="number">
+                </div>
+                <div id="password">
+                    <label for="password">Password:</label>
+                    <input type="password" name="password" id="password">
+                </div>
+            </form>
+            <div id="confirmpassword">
+                <label for="confirmpassword">Confirm Password:</label>
+                <input type="confirmpassword" name="confirmpassword" id="confirmpassword">
+            </div>
+        </form>
         </div>
         <div id="bottom">
             Button
