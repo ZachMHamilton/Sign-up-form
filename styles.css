@@ -5,6 +5,7 @@ body {
     display: flex;
     flex: 1;
     margin: 0;
+    min-height: 100vh;
 }
 .container {
     display: flex;
@@ -69,6 +70,8 @@ body {
     font-size: 20px;
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
+    letter-spacing: .02em;
+    color: #2C2C2C;
 }
 #sentence {
     flex: 1;
@@ -80,13 +83,15 @@ body {
     font-size: 20px;
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
+    letter-spacing: .02em;
+    color: #2C2C2C;
 }
 #middle {
     display: flex;
     flex-direction: column;
     position: relative;
     flex: 1;
-    background-color: whitesmoke;
+    background-color: white;
     flex-grow: .9;
     align-items: flex-start;
     justify-content: space-evenly;
@@ -100,13 +105,19 @@ body {
     display: flex;
     background-color: #f4f4f4;
     flex: 1;
-    align-items: center;
-    justify-content: space-evenly;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-top: 25px;
+    gap: 20px;
 }
 #formheader{
     font-size: 20px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
+    letter-spacing: .02em;
+    color: #2C2C2C;
 }
 
 input:focus {
@@ -121,13 +132,13 @@ form {
     padding-bottom: 10px;
     
 }
-input{
+input {
     padding-right: 200px;
     gap: 10px;
     margin: 0px;
     height: 20px;
     width: 20%;
-    border: 2px solid #E5E7EB;
+    border: 1px solid #E5E7EB;
     border-radius: 3px;
 }
 label {
@@ -137,5 +148,36 @@ label {
     font-family: 'Roboto', sans-serif;
     font-size: 10px;
     font-weight: 500;
+    letter-spacing: .1em;
 
+}
+
+#create {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    height: 40px;
+}
+button {
+    display: inline-block;
+    color: white;
+    background-color: #4a774b;
+    font-size: 12px;
+    height: 40px;
+    width: 150px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+}
+button:active {
+    background-color: #144015;
+}
+#login {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #3f3f3f;
 }
