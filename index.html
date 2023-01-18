@@ -22,33 +22,33 @@
             <div id="sentence">You <i>know</i> you want to.</div>
         </div>
         <div id="middle">
-            
+            <div id="formheader">Let's do this!</div>
+
             <form action="http://httpbin.org/post" method="post">
                 <div id="first">
-                    <label for="first_name">First Name:</label>
-                    <input type="text" name="first_name" id="first_name">
+                    <label for="first_name">FIRST NAME:</label>
+                    <input type="text" name="first_name" id="first_name" required>
                 </div>
                 <div id="last">
-                    <label for="last_name">Last Name:</label>
-                    <input type="text" name="last_name" id="last_name">
+                    <label for="last_name">LAST NAME:</label>
+                    <input type="text" name="last_name" id="last_name" required>
                 </div>
                 <div id="email">
-                    <label for="email">Email:</label>
-                    <input type="email" name="email" id="email">
+                    <label for="email">EMAIL:</label>
+                    <input type="email" name="email" id="email" required>
                 </div>
                 <div id="phonenumber">
-                    <label for="number">Phone Number:</label>
-                    <input type="number" name="number" id="number">
+                    <label for="number">PHONE NUMBER:</label>
+                    <input type="tel" name="number" id="number" required>
                 </div>
                 <div id="password">
-                    <label for="password">Password:</label>
-                    <input type="password" name="password" id="password">
+                    <label for="password">PASSWORD:</label>
+                    <input type="password" name="password" id="password" required>
                 </div>
-            </form>
-            <div id="confirmpassword">
-                <label for="confirmpassword">Confirm Password:</label>
-                <input type="confirmpassword" name="confirmpassword" id="confirmpassword">
-            </div>
+                <div id="confirmpassword">
+                    <label for="confirmpassword">CONFIRM PASSWORD:</label>
+                    <input type="confirmpassword" name="confirmpassword" id="confirmpassword" required>
+                </div>
         </form>
         </div>
         <div id="bottom">

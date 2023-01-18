@@ -55,10 +55,11 @@ body {
 }
 #top {
     display: flex;
-    background-color: #EEEEEE;
+    background-color: #f4f4f4;
     flex: 1;
     flex-direction: column;
     justify-content: flex-end;
+    gap: 10px;
 }
 #paragraph {
     flex: 1;
@@ -82,20 +83,59 @@ body {
 }
 #middle {
     display: flex;
+    flex-direction: column;
+    position: relative;
     flex: 1;
-    background-color: white;
+    background-color: whitesmoke;
     flex-grow: .9;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: space-evenly;
     font-family: 'Roboto', sans-serif;
+    box-shadow: 2px 5px 5px lightgray;
+    padding-top: 20px;
+    padding-left: 50px;
+    gap: 20px;
 }
 #bottom {
     display: flex;
-    background-color: #EEEEEE;
+    background-color: #f4f4f4;
     flex: 1;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
-input:invalid {
-    border-color: red;
+#formheader{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+input:focus {
+    border-color: blue;
+}
+form {
+    flex-grow: 4;
+    display: flex;
+    align-items: center;
+    flex-flow: wrap;
+    height: 100%;
+    padding-bottom: 10px;
+    
+}
+input{
+    padding-right: 200px;
+    gap: 10px;
+    margin: 0px;
+    height: 20px;
+    width: 20%;
+    border: 2px solid #E5E7EB;
+    border-radius: 3px;
+}
+label {
+    display: flex;
+    flex-direction: column;
+    color: #3f3f3f;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+
 }
